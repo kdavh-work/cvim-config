@@ -1,0 +1,19 @@
+set showtabindices
+
+let blacklists = []
+
+site '*://mail.google.com/*' {
+  unmap j
+  unmap k
+  unmap ?
+  unmap e
+  unmap #
+}
+
+site '*://code.hq.twilio.com' {
+  unmap t
+}
+
+site '*://drive.google.com' {
+  unmap n
+}
