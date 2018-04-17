@@ -1,6 +1,6 @@
 set showtabindices
 
-let blacklists = []
+let blacklists = ['https://console.aws.amazon.com/cloud9/ide/*']
 
 site '*://mail.google.com/*' {
   unmap j
