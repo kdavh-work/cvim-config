@@ -10,10 +10,14 @@ site '*://mail.google.com/*' {
   unmap #
 }
 
-site '*://code.hq.twilio.com' {
+site '*://code.*.twilio.com' {
   unmap t
 }
 
 site '*://drive.google.com' {
   unmap n
+}
+
+site 'https://issues.*.twilio.com' {
+  unmap .
 }
